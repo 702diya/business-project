@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kagami Mirror</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f5ff;
+      color: #333;
+    }
+
+    /* Header Section */
+    .hero {
+      background: linear-gradient(to right, #5d3fd3, #8c5bff);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 15px;
+    }
+
+    /* Navigation */
+    nav {
+      background: #4b3a9b;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* Section */
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #4b3a9b;
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .features, .locations {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .price {
+      background: #efeaff;
+      border-left: 5px solid #5d3fd3;
+    }
+
+    .testimonial {
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #5d3fd3;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a.button {
+      background: #5d3fd3;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>KAGAMI MIRROR</h1>
+    <p>The magical smart mirror that understands you</p>
+    <a href="#features" class="button">Explore Features</a>
+  </div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#audience">Audience</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#locations">Locations</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Kagami Mirror</h2>
+    <p>
+      Kagami Mirror is an AI-powered smart mirror that detects your emotions through facial recognition and supports your mental well-being. Whether you're happy, stressed, sad, or tired – Kagami knows and responds with quotes, music, wellness tips, and more.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Emotion Detection</h3>
+        <p>Uses facial recognition and AI to understand your mood in real-time.</p>
+      </div>
+      <div class="card">
+        <h3>Smart Suggestions</h3>
+        <p>Recommends music, breathing exercises, and motivational quotes based on how you feel.</p>
+      </div>
+      <div class="card">
+        <h3>Daily Info Display</h3>
+        <p>Shows the current time, weather, and reminders on a sleek interface.</p>
+      </div>
+      <div class="card">
+        <h3>Voice Assistant</h3>
+        <p>Control it with your voice, just like a smart home assistant.</p>
+      </div>
+      <div class="card">
+        <h3>Privacy Mode</h3>
+        <p>Secures your emotional data with advanced encryption and private mode.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="audience">
+    <h2>Who Is It For?</h2>
+    <p>
+      Kagami is designed for teenagers, students, and young adults who face emotional stress in their daily lives. It also appeals to anyone interested in self-care, mental wellness, and smart technology.
+    </p>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="features">
+      <div class="card price">
+        <h3>Standard Mirror</h3>
+        <p><strong>2499.90 AED</strong></p>
+        <p>Includes all essential features and wellness support.</p>
+      </div>
+      <div class="card price">
+        <h3>Premium Mirror</h3>
+        <p><strong>4999.90 AED</strong></p>
+        <p>Includes advanced emotion reading, customization, and deluxe support options.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="features">
+      <div class="card">
+        <p class="testimonial">“I saw myself giving a TED Talk. 3 months later, it came true!”</p>
+        <p>– Mira, UAE</p>
+      </div>
+      <div class="card">
+        <p class="testimonial">“Kagami helped me control anxiety and boosted my confidence.”</p>
+        <p>– Samira, UK</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="locations">
+    <h2>Available In</h2>
+    <div class="locations">
+      <div class="card">📍 Tokyo, Japan</div>
+      <div class="card">📍 Beijing & Shanghai, China</div>
+      <div class="card">📍 NYC, LA, San Francisco, USA</div>
+      <div class="card">📍 All Emirates, UAE</div>
+      <div class="card">📍 Sydney, Australia</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kagami Mirror. Built with care by Lojain, Razan & Diya.</p>
+    <p>Contact: support@kagamimirror.com</p>
+  </footer>
+
+</body>
+</html>
